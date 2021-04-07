@@ -1,0 +1,184 @@
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {background:skyblue;}
+
+.main_wrapper{
+	width:1000px;
+	height:auto;
+	margin:auto;
+	background:white;
+	}
+.header_wrapper{
+	width:1000px;
+	height:200px;
+	margin:auto;
+	}
+	
+.menubar{
+		width:1000px;
+		height:88px;
+		background:white;
+		color:skyblue;
+		
+	}
+	
+	#menu {
+		padding:0;
+		margin:0;
+		
+		float:left;
+	}
+	#menu li{
+		list-style:none;
+		display:inline;
+	}
+	#menu a {
+	text-decoration:none;
+	color:skyblue;
+	padding:8px;
+	margin:5px;
+	font-size:18px;
+	font-family:comic sans ms;	
+	}
+	#menu a:hover {
+	color:#4C97C1;
+	}
+	
+	#form{
+		float: right;
+		padding-right:8px;
+		padding-top:18px; 
+		}
+.content_wrapper{
+		width:1000px;
+		margin:auto;
+		background:white;
+		border-width:1px;
+border-style:dotted;
+border-color: skyblue;
+	}
+#content_area{
+		width:800px;
+		height:686px;
+		float: left;
+		background:white;
+		font-size:8px;
+	font-family: Arial;
+
+
+		}
+#sidebar {
+	
+	width:200px;
+	height:686px;
+	background:white;
+	float:right;
+
+}
+#sidebar_title{
+padding-top: 20px;
+	background:white;
+	color:black;
+	font-size:20px;
+	font-family: Arial;
+	text-align:center;
+	}
+#cats{
+	text-align:left;
+	margin-top:20px;
+	
+}
+#cats li{
+	list-style:disc;
+	padding:5px;
+	
+	}
+#cats a{
+	
+	text-decoration:none;
+	color:#4C97C1;
+	text-align:left;
+	font-size:13px;
+	font-family: Copperplate Gothic;
+}
+#cats a:hover {
+	color:#4C97C1;
+	font-weight:bolder;
+	text-decoration:underline;
+}
+
+#cats img{border:2px solid #4C97C1; padding:4px;}
+
+#products_box{
+width:780px;
+text-align:center;
+margin-left:5px;
+margin-bottom:10px;
+	border-width:1px;
+border-style:solid;
+border-color: #4C97C1;
+}
+#single_product{ float:left ; margin-left:15px;padding:10px; width:200px; font-family: Arial; font-size:12px;}
+#single_product img{border:2px solid black;}
+#shopping_cart{width:750px; height:50px;background:white; color:black; }
+#footer{
+	background-image: url('footer.png');
+	height:200px;
+	width:1000px;
+ background-repeat: no-repeat;
+ background-size:cover;
+clear: both;
+bottom:0;
+font-family: sans-serif;
+	}
+	#footer img{
+
+height: 40;
+width: 80;
+}
+#register_box{
+	border-width:1px;
+border-style:solid;
+border-color: #4C97C1;
+}
+img.hoverImages {
+	width:80;
+	margin:10px;
+	padding-top:20px;
+	
+	border:#a1a1a1;	
+	float:left;
+	-webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;
+}
+ 
+img.hoverImages:hover {
+	cursor:pointer;
+    margin-top: 5px;
+	
+}
+
